@@ -1,7 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ethan Satsky Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+  <header>
+    <h1>Ethan Satsky Portfolio</h1>
+    <nav>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <main class="grid">
+    <a href="3d.html"><img src="assets/3d.gif" alt="3D Animation"><span>3D Animation</span></a>
+    <a href="2d.html"><img src="assets/2d.gif" alt="2D Animation"><span>2D Animation</span></a>
+    <a href="landscapes.html"><img src="assets/landscapes.gif" alt="Landscapes"><span>Landscapes</span></a>
+    <a href="architecture.html"><img src="assets/architecture.gif" alt="Architecture"><span>Architecture</span></a>
+    <a href="animal.html"><img src="assets/animal.gif" alt="Animal Drawing"><span>Animal Drawing</span></a>
+    <a href="stopmotion.html"><img src="assets/stopmotion.gif" alt="Stop-Motion"><span>Stop-Motion</span></a>
+    <a href="illustrations.html"><img src="assets/illustrations.gif" alt="Illustrations"><span>Illustrations</span></a>
+  </main>
 </body>
 </html>
